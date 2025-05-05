@@ -1,0 +1,21 @@
+{
+  "name": "web2md",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "web2md": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
